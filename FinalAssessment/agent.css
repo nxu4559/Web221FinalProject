@@ -1,0 +1,212 @@
+body {
+  /* Set the background image URL */
+  background-image: url("background.jpg");
+
+}
+main{
+ text-align: center;
+}
+
+.property-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.property-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.property-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.property-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.property-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.property-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Property Detail Page */
+.property {
+    max-width: 1024px;
+    margin: 20px auto;
+  }
+  
+  .property h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .property img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black;
+  }
+
+  .property ul li {
+    list-style: none;
+  }
+  
+  .property p {
+    margin-bottom: 5px;
+  }
+  
+  .property ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .property ul li {
+    margin-bottom: 5px;
+  }
+  
+  .property-description {
+    margin-bottom: 10px;
+  }
+  
+  .property-contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+/* Center the navigation links horizontally */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+  /* CSS for Form Container */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container label span {
+    font-weight: bold;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container input[type="submit"],
+  .form-container input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container input[type="submit"]:hover,
+  .form-container input[type="reset"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container div {
+    text-align: center;
+  }
+
+  select {
+    width: 200px;
+    padding: 9px; /* Increase padding to make the select box bigger */
+    border-radius: 5px;
+    border: 1px dashed #ccc ;
+    font-size: 15px; /* Increase font-size to make the text bigger */
+}
+
+  .services-list div{
+    /* min-width: 100px; */
+    /* margin: 0 auto; */
+    text-align: left;
+    /* margin-left: 40%; */
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  img {
+    cursor: pointer;
+}
+
+  video {
+    width: 400px; /* Adjust the width to your desired size */
+    height: 300px; /* Adjust the height to your desired size */
+  }
+
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\agent.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" >Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="property1.html" >Property 1</a>&nbsp;&nbsp;&nbsp;
+            <a href="property2.html" >Property 2</a>&nbsp;&nbsp;&nbsp;
+            <a href="property3.html" >Property 3</a>&nbsp;&nbsp;&nbsp;
+            <a href="properties.html" >Available Properties</a>&nbsp;&nbsp;&nbsp;
+            <a href="sitemap.html">Site Map & Credits Page </a>&nbsp;&nbsp;&nbsp;
+            <a href="contact.html" >Contact</a>
+        </nav>
+    </header>
+    <h1>Contact Us</h1>
+    <!-- Contact form -->
+    <div class="form-container">
+        <form id = "form" action = "#">
+            <label><span>First Name:</span>
+                <input type="text" name="fname" id="fname" size="30"></label>
+            <label><span>Last Name:</span>
+                <input type="text" name="lname" id="lname" size="30"></label>
+            <label><span>Phone:</span>
+                <input type="text" name="phone" id="phone" size="30"></label>
+            <label><span>Email:</span>
+                <input type="email" name="email" id="email"> </label>
+            <label><span>Type of Property:</span>
+                <div class="custom-select" style="width:50px; height: 50px;">
+                    <select>
+                      <option value="0">Houses</option>
+                      <option value="1">Condos</option>
+                      </select>
+                </div>
+            <label><span>Number of Bedrooms:</span>
+                <input type="text" name="numBed" id="numBed"></label>
+            <label><span>Number of Batheroom:</span>
+                <input type="text" name="numBath" id="numBath"></label>
+            <label><span>Price Range:</span>
+                <input type="text" name="price" id="price"></label>
+            <label><span>Additional Comment:</span>
+                <input type="text" name="comment" id="comment" size="50" style = "height: 40px;"></label>
+                
+      
+            <div>
+                <input type="submit" id="submitRegister" value="Register Now">
+                <input type="reset" id="clear" value="Clear Form">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
