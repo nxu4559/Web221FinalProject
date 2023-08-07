@@ -206,4 +206,16 @@ nav {
     padding: 10px;
   }
 
+  @media (max-width:400px) {
+    body{
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 401px) and (max-width: 800px) {
+    body {
+      font-size: 15px;
+    }
+  }
+
   
