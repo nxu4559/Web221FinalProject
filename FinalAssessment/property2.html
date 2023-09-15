@@ -16,14 +16,32 @@
             <a href="property2.html" >Property 2</a>&nbsp;&nbsp;&nbsp;
             <a href="property3.html" >Property 3</a>&nbsp;&nbsp;&nbsp;
             <a href="properties.html" >Available Properties</a>&nbsp;&nbsp;&nbsp;
-            <a href="sitemap.html">Site Map & Credits Page </a>&nbsp;&nbsp;&nbsp;
+            <!-- <a href="sitemap.html">Site Map & Credits Page </a>&nbsp;&nbsp;&nbsp; -->
             <a href="contact.html" >Contact</a>
         </nav>
     </header>
     <main>
         <div class="property">
     <h1>Property Listing 2</h1>
-    <img src="jhouse4.webp" alt="Image 2" id="image2" onclick="changeImage2()">
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="jhouse4.webp" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jhouse5.webp" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jhouse6.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
     <p>Price: $450,000</p>
     <p>Address: 456 Sato Farm Road, Tochigi, Japann</p>
     <p>Lot Size: 2000 square meters</p>

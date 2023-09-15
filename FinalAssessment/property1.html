@@ -11,19 +11,38 @@
 <body>
     <header>
         <nav>
-            <a href="index.html" >Home</a>&nbsp;&nbsp;&nbsp;
-            <a href="property1.html" >Property 1</a>&nbsp;&nbsp;&nbsp;
-            <a href="property2.html" >Property 2</a>&nbsp;&nbsp;&nbsp;
-            <a href="property3.html" >Property 3</a>&nbsp;&nbsp;&nbsp;
-            <a href="properties.html" >Available Properties</a>&nbsp;&nbsp;&nbsp;
-            <a href="sitemap.html">Site Map & Credits Page </a>&nbsp;&nbsp;&nbsp;
-            <a href="contact.html" >Contact</a>
+            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="property1.html">Property 1</a>&nbsp;&nbsp;&nbsp;
+            <a href="property2.html">Property 2</a>&nbsp;&nbsp;&nbsp;
+            <a href="property3.html">Property 3</a>&nbsp;&nbsp;&nbsp;
+            <a href="properties.html">Available Properties</a>&nbsp;&nbsp;&nbsp;
+            <!-- <a href="sitemap.html">Site Map & Credits Page </a>&nbsp;&nbsp;&nbsp; -->
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
+
         <div class="property">
             <h1>Property Listing 1</h1>
-            <img src="jhouse.jpg" alt="Image 1" id="image" onclick="changeImage()">
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="jhouse.jpg" style="width:100%">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="jhouse2.jpg" style="width:100%">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="jhouse3.jpg" style="width:100%">
+                </div>
+    
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
             <p>Price: $1,000,000</p>
             <p>Address: 123 Sakura Lane, Kyoto, Japan</p>
             <p>Lot Size: 600 square meters</p>
