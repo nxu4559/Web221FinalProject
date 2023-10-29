@@ -2,62 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".\agent.css">
-    <title>Real Estate Agent - Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <main>
-    <!-- Header section with agent's picture and professional profile information -->
     <header>
         <nav>
             <a href="about.html">About </a>&nbsp;&nbsp;&nbsp;
-            <a href="index.html" >Home</a>&nbsp;&nbsp;&nbsp;
-            <a href="properties.html" >Available Properties</a>&nbsp;&nbsp;&nbsp;
-            <a href="contact.html" >Contact</a>
+            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="properties.html">Available Properties</a>&nbsp;&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
-
-    <h2>About Me</h2>
-    <img src="main.png" alt="Agent's Picture">
     
-    <p>
-        <div class = "aboutme">
-            <h3>Nanami Uchiyama</h3>
-            <p>email: sevenocean7731@gmail.com</p>
-            <div>
-            <li>Attained a bachelor&apos;s degree in computer science from a prestigious Japanese university</li>
-            <li>Demonstrated exceptional problem-solving abilities and effective time management skills during four years as a dedicated tutor</li>
-            <li>Excelled in the role of an IT solution supervisor for two years, consistently achieving swift resolution of customer issues and delivering highly satisfactory solutions.</li>
-            <li>Proficiently studied programming languages, including C++, C, JavaScript, and SQL</li>
-
-            <h4>Skills</h4>
-        
-            <p class="center-text">LPIC-1 certificate, C++, C, JavaScript, SQL</p>
-
-            <h4>Edcuation</h>
-            <div>
-                <li>Computer Programming Analysist | Seneca College of Applied Arts And Technology - North York, ON</li>
-                 <li>Bachelor of Science: Faculty of Health Science| Daito Bunka University - Japan</li>   
-            </div>
-            
+    <main>
+         <div class="timer" id="timer">0</div>
+         
+        <div class="container">
+            <p class="text">Try to do the Typing Game before seeing my website!!</p>
+            <div class="type-display" id="typeDisplay">type</div>
+            <textarea class="typeInput" id="type-input" autofocus style="width:845px; height:104px;"></textarea>
         </div>
-    </p>
 
-</main>
-<!-- Footer section with contact information and social media links -->
-<footer class = "contact">
-    <p>Contact information</p>
-    <ul>
-        <li><a href="https://github.com/nxu4559" target="_blank">GitHub Link</a></li>
-        <li><a href="#" target="_blank">Facebook</a></li>
-        <li><a href="#" target="_blank">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/nanami-uchiyama-872880274/" target="_blank">LinkedIn</a></li>
-        
-    </ul>
-
-    
-</footer>
+        <script src="script.js"></script>
+    </main>
 </body>
+
+
+</html>

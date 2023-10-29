@@ -4,6 +4,7 @@ body {
 
 }
 
+
 main {
   text-align: center;
 }
@@ -342,4 +343,13 @@ video {
   to {
     opacity: 1
   }
+}
+
+.correct{
+  color:green;
+}
+
+.incorrect{
+  color:red;
+  text-decoration: underline;
 }
